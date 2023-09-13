@@ -5,6 +5,47 @@
     scroll-behavior: smooth;
 }
 
+.field {
+    margin-bottom: 10px;
+    margin-left: 125px;
+}
+
+.field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.submit {
+    margin-left: 125px;
+}
+
+.submit input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.submit input[type="submit"]:hover {
+    display: block;
+    padding: 6px 30px;
+    font-size: 17px;
+    background-color: #4460AA;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+}
+
 body {
     margin: 0;
     padding: 12px;
