@@ -215,9 +215,14 @@
             </div>
             <div class="newsletter">
                 <h3>Send me an email</h3>
-                <form method="post">
-                    <input type="email" name="email" placeholder="Type Your Email">
-                    <i class="fas fa-envelope"></i>
+                <form id="form">
+                    <div class="field">
+                        <label for="email"></label>
+                        <input type="text" name="email" id="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" id="button" value="Send Email">
+                    </div>
                 </form>
             </div>
         </div>
@@ -243,6 +248,14 @@
 
     <!-- Add your site or application content here -->
     <script src="index.js"></script>
+    <script src="mail.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('jUQDE_dlABvpcAawZ')
+    </script>
+
 </body>
 
 </html>
